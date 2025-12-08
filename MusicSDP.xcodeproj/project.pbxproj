@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3979AB5E2EE779DF00AE106D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3979AB5A2EE779DF00AE106D /* Assets.xcassets */; };
+		3979AB5F2EE779DF00AE106D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979AB5B2EE779DF00AE106D /* ContentView.swift */; };
+		3979AB602EE779DF00AE106D /* MusicSDPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979AB5C2EE779DF00AE106D /* MusicSDPApp.swift */; };
+		3979AB622EE77A0B00AE106D /* MusicLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979AB612EE77A0B00AE106D /* MusicLogo.swift */; };
+		3979AB642EE77A4A00AE106D /* DurationSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979AB632EE77A4A00AE106D /* DurationSlider.swift */; };
+		3979AB662EE77CE600AE106D /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979AB652EE77CE600AE106D /* TextButton.swift */; };
+		3979AB682EE77DAD00AE106D /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979AB672EE77DAD00AE106D /* ImageButton.swift */; };
+		3979AB6A2EE7805E00AE106D /* VolumeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3979AB692EE7805E00AE106D /* VolumeSlider.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3979AB342EE7680900AE106D /* MusicSDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicSDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3979AB5A2EE779DF00AE106D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3979AB5B2EE779DF00AE106D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3979AB5C2EE779DF00AE106D /* MusicSDPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSDPApp.swift; sourceTree = "<group>"; };
+		3979AB612EE77A0B00AE106D /* MusicLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLogo.swift; sourceTree = "<group>"; };
+		3979AB632EE77A4A00AE106D /* DurationSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationSlider.swift; sourceTree = "<group>"; };
+		3979AB652EE77CE600AE106D /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		3979AB672EE77DAD00AE106D /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		3979AB692EE7805E00AE106D /* VolumeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3979AB362EE7680900AE106D /* MusicSDP */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MusicSDP;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3979AB312EE7680900AE106D /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		3979AB2B2EE7680900AE106D = {
 			isa = PBXGroup;
 			children = (
-				3979AB362EE7680900AE106D /* MusicSDP */,
+				3979AB5D2EE779DF00AE106D /* MusicSDP */,
 				3979AB352EE7680900AE106D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,37 @@
 				3979AB342EE7680900AE106D /* MusicSDP.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3979AB582EE779DF00AE106D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3979AB612EE77A0B00AE106D /* MusicLogo.swift */,
+				3979AB632EE77A4A00AE106D /* DurationSlider.swift */,
+				3979AB652EE77CE600AE106D /* TextButton.swift */,
+				3979AB672EE77DAD00AE106D /* ImageButton.swift */,
+				3979AB692EE7805E00AE106D /* VolumeSlider.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3979AB592EE779DF00AE106D /* System */ = {
+			isa = PBXGroup;
+			children = (
+				3979AB5C2EE779DF00AE106D /* MusicSDPApp.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		3979AB5D2EE779DF00AE106D /* MusicSDP */ = {
+			isa = PBXGroup;
+			children = (
+				3979AB5B2EE779DF00AE106D /* ContentView.swift */,
+				3979AB582EE779DF00AE106D /* Components */,
+				3979AB592EE779DF00AE106D /* System */,
+				3979AB5A2EE779DF00AE106D /* Assets.xcassets */,
+			);
+			path = MusicSDP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +101,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				3979AB362EE7680900AE106D /* MusicSDP */,
 			);
 			name = MusicSDP;
 			packageProductDependencies = (
@@ -109,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3979AB5E2EE779DF00AE106D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3979AB642EE77A4A00AE106D /* DurationSlider.swift in Sources */,
+				3979AB6A2EE7805E00AE106D /* VolumeSlider.swift in Sources */,
+				3979AB682EE77DAD00AE106D /* ImageButton.swift in Sources */,
+				3979AB662EE77CE600AE106D /* TextButton.swift in Sources */,
+				3979AB622EE77A0B00AE106D /* MusicLogo.swift in Sources */,
+				3979AB5F2EE779DF00AE106D /* ContentView.swift in Sources */,
+				3979AB602EE779DF00AE106D /* MusicSDPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
