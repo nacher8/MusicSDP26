@@ -6,6 +6,11 @@ MusicSDP is an interface to a music palyer, app built with SwiftUI.
 - Customizable volume slider.
 - Action buttons with musical icons.
 
+## ScreenShots
+<p align="center">
+  <img width="160" src="https://github.com/user-attachments/assets/f48c58fd-e03c-4480-bfc6-d35381dd6c38" />  
+</p>
+
 ## Getting Started
 
 ### Prerequisites
