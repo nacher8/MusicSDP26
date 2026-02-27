@@ -14,8 +14,9 @@ MusicSDP is an interface to a music palyer, app built with SwiftUI.
 ## Getting Started
 
 ### Prerequisites
-- Xcode 26.1.1 or later
-- iOS 26.1 or later
+- **iOS 26+**
+- **Xcode 26+**
+- **Swift 6+**
 
 ### Installation
 1. Clone the repository:
